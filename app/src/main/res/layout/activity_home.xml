@@ -7,25 +7,118 @@
     tools:context=".HomeActivity">
 
 
-    <Button
-        android:id="@+id/todayAttendance"
-        android:backgroundTint="#F67486"
+    <TextView
+        android:id="@+id/home_todat_sts_vw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Today's Attendance"
+        android:text="Today's Status"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/home_date_lbl"
+        app:layout_constraintVertical_bias="0.088" />
 
-    <EditText
+    <TextView
+        android:id="@+id/home_date_vw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="simclair"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Todays Date:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/todayAttendance"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.837"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.663"></EditText>
+        app:layout_constraintVertical_bias="0.732" />
+
+    <TextView
+        android:id="@+id/home_date_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Date:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/todayAttendance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <TextView
+        android:id="@+id/home_reg_vw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Number"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/todayAttendance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <TextView
+        android:id="@+id/home_welcome_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome user"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/todayAttendance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/todayAttendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9F9696"
+        android:text="Attendance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <TextView
+        android:id="@+id/home_reg_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Number:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/todayAttendance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="261dp"
+        android:layout_height="106dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184"
+        app:srcCompat="@drawable/mkce_logo_sgs" />
+
+    <TextView
+        android:id="@+id/home_todat_sts_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Status:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_date_lbl"
+        app:layout_constraintVertical_bias="0.088" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

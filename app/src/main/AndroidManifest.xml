@@ -3,6 +3,7 @@
     package="com.example.mkce_hauth">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
     <application
         android:networkSecurityConfig="@xml/network_security"
         android:allowBackup="true"
