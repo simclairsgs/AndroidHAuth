@@ -1,5 +1,12 @@
 package com.example.mkce_hauth;
+/*
+Copyrights (C) 2021 , George Simclair Sam
 
+This file is a part of AndroidHAuth project.
+
+This file can not be copied and/or distributed without the express
+permission of George Simclair Sam, simclair.sgs@gmail.com .
+*/
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -35,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
     private Button loginBtn;
     private Context content;
 
-    public String TargetIP = "192.168.43.235:8000";
-    public String ApiKey = "t(j3zi6jwui$0r6+v94bbct!u^&^krwt-!qulz3(qm^7=mgpc1";
+    public String TargetIP = "192.168.240.229:8000";        // Change the IP here
+    public String ApiKey = "t(j3zi6jwui$0r6+v94bbct!u^&^krwt-!qulz3(qm^7=mgpc1";   // Change the API key here
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,5 +1,12 @@
 package com.example.mkce_hauth;
+/*
+Copyrights (C) 2021 , George Simclair Sam
 
+This file is a part of AndroidHAuth project.
+
+This file can not be copied and/or distributed without the express
+permission of George Simclair Sam, simclair.sgs@gmail.com .
+*/
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
